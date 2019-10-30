@@ -4484,7 +4484,8 @@ add list=dpbr-CT address=71.137.0.0/18
 add list=dpbr-CT address=81.68.0.0/14
 add list=dpbr-CT address=82.156.0.0/15
 add list=dpbr-CT address=94.191.0.0/17
-add list=dpbr-CT address=101.32.0.0/14
+add list=dpbr-CT address=101.33.128.0/17
+add list=dpbr-CT address=101.34.0.0/15
 add list=dpbr-CT address=101.36.0.0/17
 add list=dpbr-CT address=101.36.128.0/17
 add list=dpbr-CT address=101.37.0.0/16
