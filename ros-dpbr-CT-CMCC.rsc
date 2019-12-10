@@ -6363,6 +6363,8 @@ add list=dpbr-CT address=103.145.188.0/23
 add list=dpbr-CT address=103.145.190.0/23
 add list=dpbr-CT address=103.146.6.0/23
 add list=dpbr-CT address=103.146.72.0/23
+add list=dpbr-CT address=103.146.88.0/23
+add list=dpbr-CT address=103.146.90.0/23
 add list=dpbr-CT address=103.192.8.0/22
 add list=dpbr-CT address=103.192.12.0/22
 add list=dpbr-CT address=103.192.16.0/22
