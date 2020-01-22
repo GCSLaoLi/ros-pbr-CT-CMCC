@@ -7909,7 +7909,9 @@ add list=dpbr-CT address=180.150.160.0/19
 add list=dpbr-CT address=180.178.112.0/22
 add list=dpbr-CT address=180.178.116.0/22
 add list=dpbr-CT address=180.178.192.0/18
-add list=dpbr-CT address=180.184.0.0/14
+add list=dpbr-CT address=180.184.0.0/15
+add list=dpbr-CT address=180.186.0.0/16
+add list=dpbr-CT address=180.187.0.0/16
 add list=dpbr-CT address=180.188.0.0/17
 add list=dpbr-CT address=180.200.252.0/22
 add list=dpbr-CT address=180.202.0.0/15

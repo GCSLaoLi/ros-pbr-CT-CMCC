@@ -7909,7 +7909,9 @@ add dst-address=180.150.160.0/19 action=lookup table=CT
 add dst-address=180.178.112.0/22 action=lookup table=CT
 add dst-address=180.178.116.0/22 action=lookup table=CT
 add dst-address=180.178.192.0/18 action=lookup table=CT
-add dst-address=180.184.0.0/14 action=lookup table=CT
+add dst-address=180.184.0.0/15 action=lookup table=CT
+add dst-address=180.186.0.0/16 action=lookup table=CT
+add dst-address=180.187.0.0/16 action=lookup table=CT
 add dst-address=180.188.0.0/17 action=lookup table=CT
 add dst-address=180.200.252.0/22 action=lookup table=CT
 add dst-address=180.202.0.0/15 action=lookup table=CT
