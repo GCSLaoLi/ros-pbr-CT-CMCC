@@ -27,7 +27,7 @@ done
 
 nets=`cat /tmp/pbr/cnc.txt`
 for net in $nets ; do
-  echo "add dst-address=$net action=lookup table=CMCC"
+  echo "add dst-address=$net action=lookup table=CT"
 done
 
 nets=`cat /tmp/pbr/cmcc.txt`
@@ -37,7 +37,7 @@ done
 
 nets=`cat /tmp/pbr/crtc.txt`
 for net in $nets ; do
-  echo "add dst-address=$net action=lookup table=CMCC"
+  echo "add dst-address=$net action=lookup table=CT"
 done
 
 nets=`cat /tmp/pbr/cernet.txt`
@@ -67,7 +67,7 @@ done
 
 nets=`cat /tmp/pbr/cnc.txt`
 for net in $nets ; do
-  echo "add list=dpbr-CMCC address=$net"
+  echo "add list=dpbr-CT address=$net"
 done
 
 nets=`cat /tmp/pbr/cmcc.txt`
@@ -77,7 +77,7 @@ done
 
 nets=`cat /tmp/pbr/crtc.txt`
 for net in $nets ; do
-  echo "add list=dpbr-CMCC address=$net"
+  echo "add list=dpbr-CT address=$net"
 done
 
 nets=`cat /tmp/pbr/cernet.txt`
